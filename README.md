@@ -6,7 +6,7 @@ Just set personalization (destination and variables) and source, then either sub
 The sample code is below.
 
 ``` sample.go
-    j := json.New(json.From("info@kaigohoiku.com"))
+    j := json.New(json.From("from@gmail.com"))
 	j.SetCategories("category")
 
 	p := personalization.New(
